@@ -1,9 +1,10 @@
-body{
-    background-image: url("/assets/safetyback-min.jpg");
+head{
+    background-image: url("assets/safetyfront-min.jpg");
     background-color: #cccccc;
     cursor: url("assets/cursor@2x.png"), pointer;
 }
-.plainbg {
-    background-image: url("/assets/safetyback-min.jpg");
+body{
+    background-image: url("assets/safetyback-min.jpg");
     background-color: #cccccc;
+    cursor: url("assets/cursor@2x.png"), pointer;
 }
