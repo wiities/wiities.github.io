@@ -8,6 +8,12 @@ body{
     background-color: #cccccc;
     cursor: url("assets/cursor@2x.png"), auto;
 }
+.centerheader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .center {
     display: block;
     margin-left: auto;
