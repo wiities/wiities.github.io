@@ -1,12 +1,18 @@
-#header{
+@font-face {
+    font-family: 'docs-Oswald'; /*a name to be used later*/
+    src: url('assets/Oswald-Bold.ttf'); /*URL to font*/
+}
+body{
     background-image: url("/assets/safetyfront-min.jpg");
     background-color: #cccccc;
     cursor: url("assets/cursor@2x.png"), auto;
+    background-size: cover;
 }
-body{
+#plainbg{
     background-image: url("/assets/safetyback-min.jpg");
     background-color: #cccccc;
     cursor: url("assets/cursor@2x.png"), auto;
+    background-size: cover;
 }
 centerheader {
     display: block;
@@ -21,4 +27,19 @@ centerheader {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 50%;
+}
+#samplebox{
+    background-color: #ff3029;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#sampletext{
+    font-size: 48px;
+    font-family: docs-Oswald, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    vertical-align: baseline;
 }
