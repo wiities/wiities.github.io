@@ -2,11 +2,6 @@
     font-family: 'docs-Oswald'; /*a name to be used later*/
     src: url('assets/Oswald-Bold.ttf'); /*URL to font*/
 }
-#plainbg{
-    background-image: url("/assets/safetyback-min.jpg");
-    background-color: #cccccc;
-    cursor: url("assets/cursor@2x.png"), auto !important;
-}
 body{
     background-image: url("/assets/safetyfront-min.jpg");
     background-color: #cccccc;
@@ -37,7 +32,7 @@ centerheader {
     justify-content: center;
 }
 #sampletext{
-    font-size: 55px;
+    font-size: 4vw;
     font-family: docs-Oswald, sans-serif;
     color: #ffffff;
     font-weight: 700;
@@ -48,4 +43,9 @@ centerheader {
 #sample{
     margin-top: auto;
     margin-bottom: auto;
+}
+#plainbg{
+    background-image: url("/assets/safetyback-min.jpg");
+    background-color: #cccccc;
+    cursor: url("assets/cursor@2x.png"), auto !important;
 }
