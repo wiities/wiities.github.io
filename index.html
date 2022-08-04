@@ -45,10 +45,10 @@
 </html>
 <script>
     var ua=window.navigator.userAgent;
-    var up=window.navigator.platform;
-    if(up.indexOf('Nintendo Wii')==-1){document.getElementById('wii').style.display='none'}
-    else if(up.indexOf('Nintendo WiiU')==-1){document.getElementById('wiiu').style.display='none'}
-    else if(up.indexOf('Nintendo DS')==-1){document.getElementById('ds').style.display='none'}
-    else if(up.indexOf('Nintendo 3DS')==-1){document.getElementById('3ds').style.display='none'}
-    else{document.getElementById('notwii').style.display='none'}
+    var up=navigator.platform;
+    if(up.indexOf('Nintendo Wii')==0){document.getElementById('wii').style.display='none'
+    } else if(up.indexOf('Nintendo WiiU')==0){document.getElementById('wiiu').style.display='none'
+    } else if(up.indexOf('Nintendo DS')==0){document.getElementById('ds').style.display='none'
+    } else if(up.indexOf('Nintendo 3DS')==0){document.getElementById('3ds').style.display='none'
+    } else{document.getElementById('notwii').style.display='none'}
 </script>
