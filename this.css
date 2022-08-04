@@ -46,3 +46,9 @@ centerheader {
     background-size: cover;
     cursor: url("assets/cursor@2x.png"), auto !important;
 }
+.menu_blank {
+    clear: both;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+}
