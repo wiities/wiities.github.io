@@ -3,9 +3,6 @@
     src: url('assets/Oswald-Bold.ttf'); /*URL to font*/
 }
 body{
-    background-color: #cccccc;
-    cursor: url("assets/cursor@2x.png"), auto !important;
-    background-size: cover;
 }
 centerheader {
     display: block;
