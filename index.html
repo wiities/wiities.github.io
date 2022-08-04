@@ -30,6 +30,11 @@
             <img src="/assets/website%20pic.png" style="width:100%; display: block; margin-left: auto; margin-right: auto;">
         </div>
 </div>
+<div id="3ds">
+    <div id="a">
+        <img src="/assets/3ds.png" style="width:100%; display: block; margin-left: auto; margin-right: auto;">
+    </div>
+</div>
 <div>
     <div id="example"></div>
     <script type="text/javascript">
@@ -47,6 +52,13 @@
 <script>
     var ua=window.navigator.userAgent;
     var up=navigator.platform;
-    if(up.indexOf('Nintendo')==-1){document.getElementById('wii').style.display='none'
-    } else{document.getElementById('notwii').style.display='none'}
+    if(up.indexOf('DS')==-1) {
+        document.getElementById('3ds').style.display = 'none'
+    }else {
+        if(up.indexOf('Nintendo')==-1){
+            document.getElementById('wii').style.display='none'
+        }else {
+            document.getElementById('notwii').style.display='none'
+        }
+    }
 </script>
