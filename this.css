@@ -49,6 +49,6 @@ centerheader {
 .menu_blank {
     clear: both;
     margin: auto;
-    max-width: 800px;
+    width: 100%;
     text-align: center;
 }
