@@ -47,5 +47,6 @@ centerheader {
 #plainbg{
     background-image: url("/assets/safetyback-min2.jpg");
     background-color: #cccccc;
+    background-size: cover;
     cursor: url("assets/cursor@2x.png"), auto !important;
 }
