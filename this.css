@@ -2,7 +2,7 @@
     font-family: 'docs-Oswald'; /*a name to be used later*/
     src: url('assets/Oswald-Bold.ttf'); /*URL to font*/
 }
-#notwii{
+body{
     background-image: url("/assets/safetyfront-min2.jpg");
     background-color: #cccccc;
     cursor: url("assets/cursor@2x.png"), auto !important;
