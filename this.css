@@ -3,7 +3,6 @@
     src: url('assets/Oswald-Bold.ttf'); /*URL to font*/
 }
 body{
-    background-image: url("/assets/safetyfront-min2.jpg");
     background-color: #cccccc;
     cursor: url("assets/cursor@2x.png"), auto !important;
     background-size: cover;
