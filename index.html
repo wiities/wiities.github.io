@@ -20,7 +20,35 @@
 </head>
 <body>
 <div id="plainbg">
-    <div id="a"><img src="/assets/buycrop.gif" style="width:60%; display: block; margin-left: auto; margin-right: auto;"></div>
+    <div id="a"><img src="/assets/buycropmin.gif" style="width:60%; display: block; margin-left: auto; margin-right: auto;"></div>
+</div>
+<div>
+    <div id="wii">wii</div>
+    <div id="wiiu">wiiu</div>
+    <div id="ds">ds</div>
+    <div id="3ds">3ds</div>
+    <div id="notwii">NOT WII</div>
+</div>
+<div>
+    <div id="example"></div>
+    <script type="text/javascript">
+        txt = "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
+        txt+= "<p>Browser Name: " + navigator.appName + "</p>";
+        txt+= "<p>Browser Version: " + navigator.appVersion + "</p>";
+        txt+= "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
+        txt+= "<p>Platform: " + navigator.platform + "</p>";
+        txt+= "<p>User-agent header: " + navigator.userAgent + "</p>";
+        document.getElementById("example").innerHTML=txt;
+    </script>
 </div>
 </body>
 </html>
+<script>
+    var ua=window.navigator.userAgent;
+    var up=window.navigator.platform;
+    if(up.indexOf('Nintendo Wii')==-1){document.getElementById('b').style.display='none'}
+    else if(up.indexOf('Nintendo WiiU')==-1){document.getElementById('b').style.display='none'}
+    else if(up.indexOf('Nintendo DS')==-1){document.getElementById('b').style.display='none'}
+    else if(up.indexOf('Nintendo 3DS')==-1){document.getElementById('b').style.display='none'}
+    else{document.getElementById('c').style.display='none'}
+</script>
