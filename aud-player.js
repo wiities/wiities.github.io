@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
     // (A) AUDIO OBJECT + HTML CONTROLS
-    var audio = new Audio("sugar-palm-fairy.mp3"), // change to your own!
+    var audio = new Audio("WiiSportsTheme.mp3"), // change to your own!
         aPlay = document.getElementById("aPlay"),
         aNow = document.getElementById("aNow"),
         aTime = document.getElementById("aTime"),
