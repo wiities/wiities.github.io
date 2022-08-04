@@ -20,13 +20,10 @@
 </head>
 <body>
 <div id="plainbg">
-    <div id="a"><img src="/assets/buycropmin.gif" style="width:60%; display: block; margin-left: auto; margin-right: auto;"></div>
+    <div id="a"><img src="/assets/buy3.gif" style="width:60%; display: block; margin-left: auto; margin-right: auto;"></div>
 </div>
 <div>
     <div id="wii">wii</div>
-    <div id="wiiu">wiiu</div>
-    <div id="ds">ds</div>
-    <div id="3ds">3ds</div>
     <div id="notwii">NOT WII</div>
 </div>
 <div>
@@ -46,9 +43,6 @@
 <script>
     var ua=window.navigator.userAgent;
     var up=navigator.platform;
-    if(up.indexOf('Nintendo Wii')==0){document.getElementById('wii').style.display='none'
-    } else if(up.indexOf('Nintendo WiiU')==0){document.getElementById('wiiu').style.display='none'
-    } else if(up.indexOf('Nintendo DS')==0){document.getElementById('ds').style.display='none'
-    } else if(up.indexOf('Nintendo 3DS')==0){document.getElementById('3ds').style.display='none'
+    if(up.indexOf('Nintendo')==-1){document.getElementById('wii').style.display='none'
     } else{document.getElementById('notwii').style.display='none'}
 </script>
