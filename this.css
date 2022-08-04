@@ -5,12 +5,12 @@
 #plainbg{
     background-image: url("/assets/safetyback-min.jpg");
     background-color: #cccccc;
-    cursor: url("assets/cursor@2x.png"), auto;
+    cursor: url("assets/cursor@2x.png"), auto !important;
 }
 body{
     background-image: url("/assets/safetyfront-min.jpg");
     background-color: #cccccc;
-    cursor: url("assets/cursor@2x.png"), auto;
+    cursor: url("assets/cursor@2x.png"), auto !important;
     background-size: cover;
 }
 centerheader {
