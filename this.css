@@ -2,15 +2,16 @@
     font-family: 'docs-Oswald'; /*a name to be used later*/
     src: url('assets/Oswald-Bold.ttf'); /*URL to font*/
 }
-#header{
-    background-image: url("/assets/safetyfront-min.jpg");
+#plainbg{
+    background-image: url("/assets/safetyback-min.jpg");
     background-color: #cccccc;
     cursor: url("assets/cursor@2x.png"), auto;
 }
 body{
-    background-image: url("/assets/safetyback-min.jpg");
+    background-image: url("/assets/safetyfront-min.jpg");
     background-color: #cccccc;
     cursor: url("assets/cursor@2x.png"), auto;
+    background-size: cover;
 }
 centerheader {
     display: block;
