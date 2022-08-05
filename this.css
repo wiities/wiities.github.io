@@ -2,6 +2,10 @@
     font-family: 'docs-Oswald'; /*a name to be used later*/
     src: url('assets/Oswald-Bold.ttf'); /*URL to font*/
 }
+@font-face {
+    font-family: 'opensans'; /*a name to be used later*/
+    src: url('assets/OpenSans-Regular.ttf'); /*URL to font*/
+}
 body{
     background-image: url("/assets/safetyfront-min.jpg");
     cursor: url("assets/cursor@2x.png"), auto;
@@ -67,10 +71,34 @@ centerheader {
 }
 .images img {
     display: block;
-    width: 60%;
+    width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+#disclaimertext{
+    font-size: 4vw;
+    font-family: docs-Oswald, sans-serif;
+    color: #000000;
+    font-weight: 700;
+    vertical-align: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+#subtext{
+    font-size: 1.3vw;
+    font-family: opensans, sans-serif;
+    color: #000000;
+    vertical-align: baseline;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.link:hover {
+    cursor: url("assets/cursor@2x.png"), auto;
 }
