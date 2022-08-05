@@ -64,6 +64,7 @@ centerheader {
     display: table;
     border-collapse: collapse;
     width: 100%;
+    text-align: center;
 }
 .images {
     display: table-cell;
@@ -79,6 +80,9 @@ centerheader {
 }
 #warnspin{
     width: 100%;
+}
+#mattpic{
+    width: 80%;
 }
 #disclaimertext{
     font-size: 4vw;
