@@ -70,13 +70,15 @@ centerheader {
     vertical-align:middle;
 }
 .images img {
-    display: block;
     width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+#warnspin{
+    width: 100%;
 }
 #disclaimertext{
     font-size: 4vw;

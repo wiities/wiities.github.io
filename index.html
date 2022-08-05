@@ -23,15 +23,23 @@
     </div>
     <div id="plainbg">
         <div id="disclaimertext">
+            <div id="warndis" style="display:none">*EARLY ACCESS FOR NINTENDO CONSOLES ONLY</div>
+            <div id="buydis" style="display:none">
             CLICK TO SECURE YOUR BOX* NOW
+            </div>
         </div>
         <div id="banner">
             <div id="mii" class="images">
                 <img src="/assets/mii.gif">
             </div>
-            <div id="buy" class="images" >
+            <div id="buy" class="images" style="display:none">
                 <a class="link" href="https://recklessplayersclub.bigcartel.com/">
                 <img src="/assets/buycropmin.gif" alt="buy now">
+                </a>
+            </div>
+            <div id="warn" class="images" style="display:none; width: 100%;">
+                <a class="link" href="https://goldin.co/item/2009-nintendo-gold-plated-wii-console-bundle-intended-for-queen-elizab2x4ku?fbclid=IwAR0lofII4rSuhGCaDKQT06l1cqHrZqXNs5vzRAMd4pia6DdT6YC1PDr7cfA/">
+                    <img id="warnspin" src="/assets/warnmin.gif" alt="warn now">
                 </a>
             </div>
             <div id="matt" class="images">
@@ -39,7 +47,10 @@
             </div>
         </div>
         <div id="subtext">
+            <div id="warnsub" style="display:none">*Access using a Nintendo Console is required for early purchase of a box of Wiities. Please note, the ability to purchase a box of Wiities will be available to all platforms shortly.</div>
+            <div id="buysub" style="display:none">
             *Box does not include nor induce enhanced athletic abilities. If you experience a strong desire to sporadically wave a tennis racket back and forth or to throw a bowling ball backward, please consult a doctor.
+            </div>
         </div>
     </div>
 </div>
@@ -88,5 +99,8 @@
             document.body.style.backgroundSize='cover'
             document.body.style.backgroundColor='#cccccc'
             document.getElementById('notwii').style.display='block'
+            document.getElementById('warn').style.display='block'
+            document.getElementById('warnsub').style.display='block'
+            document.getElementById('warndis').style.display='block'
     }
 </script>
