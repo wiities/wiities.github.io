@@ -84,15 +84,31 @@
     switch (up) {
         case "Nintendo Wii":
             document.getElementById('wii').style.display='block'
+            document.getElementById('notwii').remove()
+            document.getElementById('warn').remove()
+            document.getElementById('warnsub').remove()
+            document.getElementById('warndis').remove()
             break;
         case "Nintendo DS":
             document.getElementById('3ds').style.display = 'block'
+            document.getElementById('notwii').remove()
+            document.getElementById('warn').remove()
+            document.getElementById('warnsub').remove()
+            document.getElementById('warndis').remove()
             break;
         case "Nintendo 3DS":
             document.getElementById('3ds').style.display = 'block'
+            document.getElementById('notwii').remove()
+            document.getElementById('warn').remove()
+            document.getElementById('warnsub').remove()
+            document.getElementById('warndis').remove()
             break;
         case "Nintendo WiiU":
             document.getElementById('wii').style.display='block'
+            document.getElementById('notwii').remove()
+            document.getElementById('warn').remove()
+            document.getElementById('warnsub').remove()
+            document.getElementById('warndis').remove()
             break;
         default:
             document.body.style.backgroundImage = "url('/assets/safetyfront-min2.jpg')"
@@ -102,5 +118,7 @@
             document.getElementById('warn').style.display='block'
             document.getElementById('warnsub').style.display='block'
             document.getElementById('warndis').style.display='block'
+            document.getElementById('3ds').remove()
+            document.getElementById('wii').remove()
     }
 </script>
