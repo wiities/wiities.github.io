@@ -7,7 +7,7 @@
     src: url('assets/OpenSans-Regular.ttf'); /*URL to font*/
 }
 body{
-    background-image: url("/assets/safetyfront-min.jpg");
+    background-image: url("/assets/safetyfront-min2.jpg");
     cursor: url("assets/cursor@2x.png"), auto;
     background-size: cover;
 }
