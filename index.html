@@ -38,6 +38,11 @@
                 <img src="/assets/buycropmin.gif" alt="buy now">
                 </a>
             </div>
+            <div id="vid" class="images" style="display:none">
+                <video width="100%" controls>
+                    <source src="/assets/wiisports.mp4" type="video/mp4">
+                </video>
+            </div>
             <div id="warn" class="images" style="display:none; width: 100%;">
                 <a class="link" href="https://goldin.co/item/2009-nintendo-gold-plated-wii-console-bundle-intended-for-queen-elizab2x4ku?fbclid=IwAR0lofII4rSuhGCaDKQT06l1cqHrZqXNs5vzRAMd4pia6DdT6YC1PDr7cfA/">
                     <img id="warnspin" src="/assets/warnmintest.gif" alt="warn now">
@@ -80,6 +85,12 @@
 </body>
 </html>
 <script>
+    var NYDate = new Date(new Date().toLocaleString("en-US", {timeZone: "America/Chicago"}));
+
+    var NYHour = NYDate.getHours();
+
+
+
     var ua=window.navigator.userAgent;
     var up=navigator.platform;
     switch (up) {
@@ -128,15 +139,32 @@
             document.getElementById('warndis').remove()
             break;
         default:
-            document.body.style.backgroundImage = "url('/assets/safetyfront-min2.jpg')"
-            document.body.style.backgroundSize='cover'
-            document.body.style.backgroundColor='#cccccc'
-            document.getElementById('notwii').style.display='block'
-            document.getElementById('warn').style.display='block'
-            document.getElementById('warnsub').style.display='block'
-            document.getElementById('warndis').style.display='block'
-            document.getElementById('3ds').remove()
-            document.getElementById('wii').remove()
-            document.getElementById('buy').remove()
+            if (NYHour >= 12 && NYHour <= 13) {
+                document.body.style.backgroundImage = "url('/assets/safetyfront-min2.jpg')"
+                document.body.style.backgroundSize='cover'
+                document.body.style.backgroundColor='#cccccc'
+                document.getElementById('notwii').style.display='block'
+                document.getElementById('buydis').style.display='block'
+                document.getElementById('buysub').style.display='block'
+                document.getElementById('warn').remove()
+                document.getElementById('warnsub').remove()
+                document.getElementById('warndis').remove()
+                document.getElementById('3ds').remove()
+                document.getElementById('wii').remove()
+                document.getElementById('buy').style.display='block'
+            }else {
+                document.body.style.backgroundImage = "url('/assets/safetyfront-min2.jpg')"
+                document.body.style.backgroundSize='cover'
+                document.body.style.backgroundColor='#cccccc'
+                document.getElementById('notwii').style.display='block'
+                document.getElementById('warn').remove()
+                document.getElementById('vid').style.display='block'
+                document.getElementById('buysub').style.display='block'
+                document.getElementById('warndis').style.display='block'
+                document.getElementById('3ds').remove()
+                document.getElementById('wii').remove()
+                document.getElementById('buy').remove()
+            }
     }
+
 </script>
